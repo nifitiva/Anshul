@@ -1,0 +1,356 @@
+@media (max-width: 768px) {
+  .nav ul {
+    flex-direction: column;
+  }
+}
+
+/* For mobiles */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  *{
+    font-style:'poppins',sans-serif;
+  }
+  body{
+    background-color: rgb(0, 0, 0);
+    overflow-x: hidden;
+    overflow-y: auto;
+     margin: 0;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+ 
+  }
+  .imagess{
+    position: relative;
+    right: -80px;
+  }
+
+  .heade img{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid white;
+    position: relative;
+    top: -50px;
+    right: -10px;
+}
+.container{
+    background-image:url(chess.jpg);
+    width: 350px;
+    height: 350px;
+    position: relative;
+    bottom: -10px;
+    right: -30px;
+    border-radius: 10px;
+    font-family: "Archivo Black", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+
+.heade h1{
+  color: rgb(254, 244, 244);
+  bottom: -8px;
+  right: -80px;
+  font-size: 20px;
+  position: relative;
+  font-family: 'poppins',sans-serif;
+}
+.text h1,p1,p2,p3,p4,p5,p6,h2{
+  color: rgb(255, 255, 255);
+  font-family: 'poppins',sans-serif;
+}
+.text h1{
+  font-size: 25px;
+  position: relative;
+  bottom: -20px;
+  right: -20px;
+  text-align: ;
+}
+.text p1{
+  font-size: 15px;
+  width:100px;
+  position: relative;
+  bottom: -20px;
+}
+.text p2{
+  width: 100px;
+  font-size: 15px; 
+  bottom: -40px;
+  position: relative;
+  bottom: -30px;
+}
+.text p3{
+  position: relative;
+  bottom: -70px;
+}
+.text p1,p2,p3,p4,p5,p6,h2
+{
+  text-align: center;
+  position: relative;
+  right: -20px;
+}
+.text p4{
+  position: relative;
+  bottom: -130px;
+}
+.text p5{
+  position: relative;
+  bottom: -180px;
+}
+.text p6{
+  bottom: -250px;
+  position: relative;;
+}
+.email-link {
+   text-decoration: none;
+   font-size: 18px;
+   color: #ffffff;
+   display: flex;
+   align-items: center;
+   gap: 8px;
+}
+.email-link i {
+   color: #324dff; /* red envelope icon */
+   font-size: 20px;
+}
+.text a{
+  position: relative;
+  bottom: -300px;
+  right: -30px;
+}
+.text h2{
+  position: relative;
+  bottom: -300px;
+  font-size: 20px;
+  left: -60px;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 40px;
+  opacity: 0.8;
+}
+.price {
+  font-size: 20px;
+  margin: 10px 0;
+  position: relative;
+  left: -180px;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: #888;
+  margin-right: 10px;
+}
+
+.new-price {
+  color: #ffffff; 
+  font-weight: bold;
+}
+.footer p8{
+  position: relative;
+  left:-195px ;
+  font-size: 17px;
+  font-weight: 700;
+  font-family: 'poppins',sans-serif;
+}
+.black-space {
+  background: #000; 
+  height: 500px;      
+  width: 100%;
+}
+.pay-btn {
+  background: #0f9d58;   /* Google Pay style green */
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.pay-btn:hover {
+  background: #0c7a43;
+}
+
+
+.contact {
+  text-align: center;
+}
+
+.email-link {
+  font-size: 20px;
+  color: #333;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  background: white;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+.email-link i {
+  margin-right: 8px;
+  color: #d93025; /* Gmail red */
+}
+
+.email-link:hover {
+  background: #d93025;
+  color: white;
+}
+
+.email-link:hover i {
+  color: white;
+}
+.pay-btn{
+  position: relative;
+  left: -55px;
+}
+img {
+      width: 250px;
+      height: 250px;
+      margin-top: 20px;
+    }
+    button {
+      margin-top: 30px;
+      padding: 10px 20px;
+      background: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    button:hover {
+      background: #0056b3;
+    }
+    .anshul{
+      position:relative;
+      right: -50px;
+      border-radius: 10px;
+      position: relative;
+      bottom: -50px;
+    
+    }
+    .kk{
+      color: rgb(255, 255, 255);
+      font-weight: 700;
+      right: -75px;
+      top: -260px;
+      font-size: 28px;
+      position: relative;
+    }
+    .mk{
+      position: relative;
+      left: -50px;
+    }
+    .mango{
+      background-color: #ffffff;
+      width: 300px;
+      height: 250px;
+      position: relative;
+      right: -40px;
+      bottom: -150px;
+      border-radius: 10px;
+      opacity: 0.9;
+    }
+   .form-box {
+  background: rgb(19, 55, 48);
+  padding: 20px;
+  height: -500px;
+  width: 300px;
+  margin: 50px auto;
+  position: relative;
+  bottom: -50px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+input {
+  height: 30px;
+  margin-bottom: 20px;
+  width: 250px;
+  position: relative;
+  bottom: -5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: royalblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+  top: -25px;
+  left: -0px;
+}
+
+button:hover {
+  background: rgb(0, 102, 139);
+}
+    #mga{
+      color: rgb(255, 255, 255);
+      font-size: 25px;
+      position: relative;
+      bottom: -13px;
+      left: -3px;
+      width: ;
+    
+    }
+   .form-box h1{
+    top: -10px;
+    position: relative;
+    right: -90px;
+    color: rgb(46, 197, 202);
+    font-weight: 1200;;
+   }
+   .form-box p{
+    color: white;
+    position: relative;
+    right: -20px;
+    top: -5px;
+   }
+   #ketu{
+    font-size: 15px;
+    position: relative;
+    top: -20px;
+   }
+   .ko p{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    position: relative;
+    top: -10px;
+    right: -7px;
+    padding-bottom: -10px;
+   }
+   .ko{
+    width: 350px;
+    height: 45px;
+    background-color: rgb(255, 53, 53);
+    position: relative;
+    right: -10px;
+    border-radius: 8px;
+   }
+  .mpp p{
+color: rgb(238, 255, 238);
+font-size: 12px;
+position: relative;
+right: -20px;
+  }
+  .mpp h1{
+    color: white;
+  }
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <style>
+    body{
+      background-color: rgb(158, 238, 248);
+    }
+    *{
+      overflow-x: hidden;
+    }
+  </style>
+  
+<div class="form-box">
+    <h1>Register</h1>
+    <p>Enter details and get your course</p>
+    <form name="submit-to-google-sheet" id="myform" action="payment.html" method="get">
+      <i id="mga" class="fa-solid fa-user"></i>
+      <input type="text" id="name" name="Name" placeholder="Enter Your Full Name" required><br>
+
+      <i id="mga" class="fa-brands fa-instagram"></i>
+      <input type="text" id="insta" name="insta" placeholder="Enter Instagram ID" required><br>
+
+      <i id="mga" class="fa-solid fa-envelope"></i>
+      <input type="email" id="email" name="email" placeholder="Enter Email ID" required><br>
+
+      <button type="submit">Submit</button>
+    </form>
+    <p id="ketu">When You register Click on submit !</p>
+  </div>
+
+  <script src="script.js"></script>
+  <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbx8SfgXqe99gZi5Fdmb_lORIk-ZVTkPJL6jsbHyaT0Cm6aGlg52drjP9vCiZpVHIBI5Ew/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {console.log('Success!', response);
+     window.location.href = "payment.html";})
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+
+</body>
+</html>
